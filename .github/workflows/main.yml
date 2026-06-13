@@ -32,7 +32,7 @@ jobs:
               git pull origin master
             else
               echo "Cloning API repository..."
-              git clone -b master https://github.com/yonathanth/tatek-gym-api.git .
+              git clone -b master https://github.com/yonathanth/tatek-api.git .
             fi
 
             # Install dependencies
